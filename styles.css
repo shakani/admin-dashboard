@@ -21,6 +21,14 @@ body {
     grid-row: 1 / span 2;
 }
 
+.sidebar > .logo > img {
+    height: 50px;
+}
+
+.sidebar > ul > li > img.navicon {
+    height: 30px;
+}
+
 .header {
     background-color: white;
     grid-column: 2;
