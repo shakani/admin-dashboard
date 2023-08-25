@@ -29,7 +29,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
     padding: 20px 20px;
+}
+
+.logo > .logo-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
 }
 
 .sidebar > .logo > img {
@@ -38,13 +45,28 @@ body {
 
 .sidebar > ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar > ul > li > .navlink {
+    font-size: 1.2rem;
+    color: white;
 }
 
 .sidebar > ul > li > img.navicon {
     height: 30px;
 }
 
-#blank-nav-link {
+.hidden {
     color: transparent;
 }
 
