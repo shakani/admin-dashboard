@@ -32,4 +32,17 @@ body {
 .content {
     background-color: var(--silver-lake-blue);
     grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.content .projects {
+    grid-column-start: 1;
+    grid-row: 1 / span 2;
+}
+
+.content .announcements,
+.content .trending {
+    grid-column-start: 2;
 }
