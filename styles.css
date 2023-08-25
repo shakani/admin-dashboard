@@ -1,3 +1,11 @@
+:root {
+    --old-gold: #CFB53B;
+    --rich-black: #0D1321;
+    --prussian-blue: #1D2D44;
+    --paynes-gray: #3E5C76;
+    --silver-lake-blue: #748CAB;
+}
+
 body {
     margin: 0;
     display: grid;
@@ -7,7 +15,7 @@ body {
 }
 
 .sidebar {
-    background-color: #cfb53b;
+    background-color: var(--old-gold);
     grid-column: 1;
     grid-row: 1 / span 2;
 }
@@ -18,6 +26,6 @@ body {
 }
 
 .content {
-    background-color: #d1cfc3;
+    background-color: var(--silver-lake-blue);
     grid-column: 2;
 }
