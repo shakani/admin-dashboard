@@ -7,6 +7,8 @@ function changeImg(element) {
 
 imgs.forEach(changeImg);
 
+// Dyamic project card creation
+
 var projectBox = document.querySelector('.project-container');
 
 let cardTitles = ['Super Cool Project', 'Less Cool Project', 'Impossible App', 'Easy Peasy App', 'Ad Blocker', 'Money Maker'];
