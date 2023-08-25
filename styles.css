@@ -19,10 +19,25 @@ body {
     background-color: var(--old-gold);
     grid-column: 1;
     grid-row: 1 / span 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sidebar > .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px;
 }
 
 .sidebar > .logo > img {
     height: 50px;
+}
+
+.sidebar > ul {
+    list-style: none;
 }
 
 .sidebar > ul > li > img.navicon {
