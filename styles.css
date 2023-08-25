@@ -29,6 +29,10 @@ body {
     height: 30px;
 }
 
+#blank-nav-link {
+    color: transparent;
+}
+
 .header {
     background-color: white;
     grid-column: 2;
