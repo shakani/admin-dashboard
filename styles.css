@@ -91,8 +91,13 @@ body {
     align-items: center;
 }
 
-.header > .searchbar > img {
+.header > .searchbar > img,
+.header > .notificationbar, img {
     height: 30px;
+}
+
+img.profile-picture {
+    height: 50px;
 }
 
 /* CONTENT STYLING */
