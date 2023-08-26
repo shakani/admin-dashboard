@@ -85,6 +85,12 @@ body {
 
 }
 
+.header > .searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .header > .searchbar > img {
     height: 30px;
 }
