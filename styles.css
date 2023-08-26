@@ -15,6 +15,8 @@ body {
     height: 100vh;
 }
 
+/* SIDEBAR STYLING */
+
 .sidebar {
     background-color: var(--old-gold);
     grid-column: 1;
@@ -72,13 +74,22 @@ body {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
 }
 
+/* HEADER STYLING */
+
 .header {
     background-color: white;
     grid-column: 2;
 
     display: grid;
     grid-template-columns: 3fr 1fr;
+
 }
+
+.header > .searchbar > img {
+    height: 30px;
+}
+
+/* CONTENT STYLING */
 
 .content {
     background-color: var(--silver-lake-blue);
