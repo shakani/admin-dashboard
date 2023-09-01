@@ -318,6 +318,14 @@ img.profile-picture {
     font-size: small;   
 }
 
+.trending-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
 .trending-card > .account {
     color: var(--rich-black);
 }
