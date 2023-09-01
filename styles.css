@@ -297,3 +297,7 @@ img.profile-picture {
     font-weight: bold;
     margin-bottom: -10px;
 }
+
+.announcements > .announcements-container > p {
+    color: #747e96;
+}
