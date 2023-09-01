@@ -291,3 +291,9 @@ img.profile-picture {
 
     font-size: small;
 }
+
+.announcements > .announcements-container > .announcement-title {
+    color: var(--rich-black);
+    font-weight: bold;
+    margin-bottom: -10px;
+}
