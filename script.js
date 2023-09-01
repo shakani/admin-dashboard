@@ -29,10 +29,15 @@ for(let i = 0; i < 6; i++) {
 
     let buttonContainer = document.createElement('div');
     buttonContainer.classList.add('button-container');
+
+    let btn_srcs = ['star-plus-outline.svg', 'source-fork.svg', 'eye-plus-outline.svg'];
+
     for(let j = 0; j < 3; j++) {
-        let btn = document.createElement('button');
-        btn.classList.add(btnClasses[j]);
-        btn.textContent = btnClasses[j]; // remove later
+        // let btn = document.createElement('button');
+        // btn.classList.add(btnClasses[j]);
+        // btn.textContent = btnClasses[j]; // remove later
+        let btn = document.createElement('img');
+        btn.src = './assets/icons/' + btn_srcs[j];
         buttonContainer.appendChild(btn);
     }
 

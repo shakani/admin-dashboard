@@ -256,3 +256,15 @@ img.profile-picture {
     font-size: 1.2rem;
     color: var(--rich-black);
 }
+
+.card > .card-content {
+    color: #747e96;
+}
+
+.card > .button-container {
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
