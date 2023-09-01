@@ -83,6 +83,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
 
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header > .searchbar {
@@ -160,6 +162,12 @@ img.profile-picture {
 .header > .hithere > .hi-text-container {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
+}
+
+.header > .hithere > .hi-text-container > .hi-name {
+    font-size: 1.5rem;
+    margin-top: -10px;
 }
 
 /* CONTENT STYLING */
