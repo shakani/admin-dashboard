@@ -152,6 +152,16 @@ img.profile-picture {
     grid-row: 1 / 2;
 }
 
+.header > .hithere > .hi-text {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.header > .hithere > .hi-name {
+    grid-column: 2;
+    grid-row: 2;
+}
+
 /* CONTENT STYLING */
 
 .content {
