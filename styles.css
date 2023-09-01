@@ -317,3 +317,11 @@ img.profile-picture {
 
     font-size: small;   
 }
+
+.trending-card > .account {
+    color: var(--rich-black);
+}
+
+.trending-card > .account-name {
+    color:  #747e96;
+}
