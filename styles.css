@@ -81,7 +81,7 @@ body {
     grid-column: 2;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 
 }
 
@@ -89,6 +89,26 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    margin: 30px 30px;
+}
+
+.header > .searchbar > img {
+    padding-right: 30px;
+}
+
+.header > .searchbar > input {
+    flex: 1;
+    /* margin-right: 50px; */
+
+    border: 0px;
+    border-radius: 2rem;
+    padding: 10px;
+    background-color: rgb(227, 232, 239);
+}
+
+.header > .searchbar > input:focus {
+    outline: 2px solid var(--old-gold);
 }
 
 .header > .searchbar > img,
@@ -98,6 +118,38 @@ body {
 
 img.profile-picture {
     height: 50px;
+}
+
+.header > .notificationbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 30px 30px;
+}
+
+.header > .notificationbar > .profile-picture {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: var(--old-gold);
+}
+
+.header > .notificationbar > .account {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.header > .hithere {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header > .hithere > img {
+    grid-column: 1;
+    grid-row: 1 / 2;
 }
 
 /* CONTENT STYLING */
