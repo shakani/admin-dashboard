@@ -170,6 +170,13 @@ img.profile-picture {
     margin-top: -10px;
 }
 
+.header > .postbutton-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* CONTENT STYLING */
 
 .content {
