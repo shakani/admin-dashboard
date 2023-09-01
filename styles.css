@@ -3,7 +3,7 @@
     --rich-black: #0D1321;
     --prussian-blue: #1D2D44;
     --paynes-gray: #3E5C76;
-    --silver-lake-blue: #748cab;
+    --silver-lake-blue: rgb(179, 205, 236);
 }
 
 body {
@@ -218,7 +218,7 @@ img.profile-picture {
 }
 
 .content > .projects > .title {
-    color: white;
+    color: var(--rich-black);
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -227,5 +227,32 @@ img.profile-picture {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.content > .projects > .project-container > .card {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: .5rem;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-left: 10px solid var(--prussian-blue);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 10px;
+}
+
+.content > .projects > .project-container > .card:hover {
+    border-left: 10px solid var(--old-gold);
+}
+
+.content > .projects > .project-container > .card > .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--rich-black);
 }
