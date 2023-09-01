@@ -268,3 +268,15 @@ img.profile-picture {
     flex-direction: row;
     gap: 10px;
 }
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.announcements > .title {
+    color: var(--rich-black);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
