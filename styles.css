@@ -3,7 +3,7 @@
     --rich-black: #0D1321;
     --prussian-blue: #1D2D44;
     --paynes-gray: #3E5C76;
-    --silver-lake-blue: #748CAB;
+    --silver-lake-blue: #748cab;
 }
 
 body {
@@ -179,6 +179,9 @@ img.profile-picture {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .content .projects {
