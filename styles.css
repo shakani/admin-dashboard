@@ -216,3 +216,9 @@ img.profile-picture {
 .content .trending {
     grid-column-start: 2;
 }
+
+.content > .projects > .title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
