@@ -315,7 +315,10 @@ img.profile-picture {
     padding: 20px 20px;
     border-radius: .5rem;
 
-    font-size: small;   
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .trending-card {
@@ -324,6 +327,10 @@ img.profile-picture {
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
+}
+
+.trending-card > img {
+    height: 50px;
 }
 
 .trending-card > .account {
