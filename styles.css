@@ -296,7 +296,6 @@ img.profile-picture {
 .announcements > .announcements-container > .announcement-title {
     color: var(--rich-black);
     font-weight: bold;
-    margin-bottom: -10px;
 }
 
 .announcements > .announcements-container > p {
@@ -305,6 +304,7 @@ img.profile-picture {
 
 .trending {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .trending > .trending-container {
@@ -331,12 +331,22 @@ img.profile-picture {
 
 .trending-card > img {
     height: 50px;
+    border-radius: 100%;
+    padding: 5px 5px;
 }
 
-.trending-card > .account {
+.trending-card > .text-wrapper > .account {
     color: var(--rich-black);
 }
 
-.trending-card > .account-name {
+.trending-card > .text-wrapper > .account-name {
     color:  #747e96;
+}
+
+#buzz-trending {
+    background-color: var(--old-gold);
+}
+
+#alien-trending {
+    background-color: olive;
 }
