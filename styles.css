@@ -175,6 +175,22 @@ img.profile-picture {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+.header > .postbutton-container > button {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: var(--prussian-blue);
+    padding: 10px 30px;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.header > .postbutton-container > button:hover {
+    background-color: var(--old-gold);
 }
 
 /* CONTENT STYLING */
